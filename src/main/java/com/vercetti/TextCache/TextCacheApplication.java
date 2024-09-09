@@ -24,5 +24,4 @@ public class TextCacheApplication {
 		redisTemplate.setValueSerializer(jsonSerializer);
 		return redisTemplate;
 	}
-
 }

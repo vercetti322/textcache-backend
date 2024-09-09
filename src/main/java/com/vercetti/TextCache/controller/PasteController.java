@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 
 @RestController
 @RequestMapping("/api/pastes")
-@CrossOrigin
 public class PasteController {
 
     private final RedisTemplate<String, Paste> redisTemplate;
